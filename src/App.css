@@ -1,0 +1,355 @@
+/* 
+.App {
+  background-color: rgb(118, 118, 150);
+  margin: 10% 30% auto 30%;
+  text-align: center;
+}
+.login input{
+  margin: 10px;
+  width: 90%;
+  padding-top: 15px;
+  font-size: 20px;
+
+}
+h2{
+  color: #fff;
+  font-size: 30px;
+}
+.login label{
+  color: #fff;
+  font-size: 30px;
+}
+button{
+  width: 40%;
+  padding-top: 20px;
+  margin: 10px;
+  font-size: 20px;
+  background-color: #fff;
+  color: #111;
+  text-align: center;
+} */
+
+
+
+
+
+
+body{
+  background-color: rgb(71, 53, 138);
+}
+.logo{
+  color: rgb(71, 53, 138);
+  font-size: 30px;
+  padding: 30px;
+  /* margin: 10px; */
+  font-weight: 600;
+}
+.nav{
+  background-color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  border: 2px solid #111;
+  
+}
+.menu{
+  display: flex;
+  flex-direction: row;
+}
+.menu ul{
+  display: flex;
+  color: #111;
+  font-size: 25px;
+}
+
+.menu li{
+  list-style: none;
+  margin: 10px;
+}
+.card{
+
+  background-color: rgb(43, 28, 28);
+  color: white;
+  padding: 10px;
+  margin: 25px;
+  
+}
+.heading h2{
+  width: 100%;
+  color: #fff;
+}
+.card_image{
+  width: 10rem;
+}
+img{
+  width: 100%;
+}
+.card{
+  width: 10rem;
+}
+.home{
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid #fff;
+}
+.footer{
+  background-color: rgb(43, 28, 28);
+  color: #fff;
+  height: 8vh;
+
+}
+button{
+  width: 140px;
+  height: 30px;
+}
+button:hover{
+  cursor: pointer;
+  border: 2px solid rgb(71, 53, 138);
+}
+
+/* login page styling */
+.login input{
+  margin: 10px;
+  width: 90%;
+  padding-top: 15px;
+  font-size: 20px;
+
+}
+.login h2{
+  color: #fff;
+  font-size: 30px;
+}
+.login label{
+  color: #fff;
+  font-size: 30px;
+}
+.login button{
+  width: 40%;
+  height: 50px;
+  padding-top: 20px;
+  margin: 10px;
+  font-size: 20px;
+  background-color: #fff;
+  color: #111;
+  text-align: center;
+} 
+.login {
+  background-color: rgb(118, 118, 150);
+  margin: 1% 30% auto 30%;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 1153px){
+  .home{
+    display: flex;
+  }
+  .card{
+    padding: 8px;
+    margin: 15px;
+    
+  }
+  .card_image{
+    width: 10rem;
+  }
+  .card{
+    width: 10rem;
+  }
+
+}
+@media (max-width: 1033px){
+  .card{
+    padding: 7px;
+    margin: 12px;
+    
+  }
+  @media (max-width: 990px){
+    .card{
+      padding: 7px;
+      margin: 10px;
+      
+    }
+  }
+
+  @media (max-width: 778px){
+    .logo{
+      font-size: 25px;
+      padding: 25px;
+    }
+    .menu ul{
+      font-size: 20px;
+    }
+    .card{
+      padding: 5px;
+      margin: 8px;
+      
+    }
+    .card_image{
+      width: 8rem;
+    }
+    .card{
+      width: 8rem;
+    }
+    button{
+      width: 120px;
+
+    }
+  }
+  @media (max-width: 619px){
+    .card_image{
+      width: 8rem;
+    }
+    .card{
+      width: 8rem;
+    }
+    .card{
+      padding: 10px;
+      margin: 20px;
+    }
+  }
+  @media (max-width: 566px){
+    .card{
+      padding: 8px;
+      margin: 15px;
+    }
+    .card_image{
+      width: 7rem;
+    }
+    .card{
+      width: 7rem;
+    }
+    button{
+      width: 100px;
+    }
+  }
+  @media (max-width: 566px){
+    .logo{
+      font-size: 20px;
+      padding: 20px;
+    }
+    .menu ul{
+      font-size: 17px;
+    }
+    .card{
+      padding: 8px;
+      margin: 15px;
+    }
+    .card_image{
+      width: 6rem;
+    }
+    .card{
+      width: 6rem;
+    }
+    button{
+      width: 100px;
+    }
+  }
+    @media (max-width: 432px){
+      .card{
+        padding: 7px;
+        margin: 10px;
+      }
+      button{
+        width: 90px;
+      }
+  }
+  @media (max-width: 392px){
+    .logo{
+      font-size: 20px;
+      padding: 15px;
+      margin-top: 16px;
+    }
+  }
+  @media (max-width: 392px){
+    .nav{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .logo{
+      font-size: 20px;
+      padding: 15px;
+    }
+    .menu ul{
+      font-size: 15px;
+      padding: 10px;
+    }
+    .card{
+      padding: 6px;
+      margin: 8px;
+    }
+    .card_image{
+      width: 5rem;
+    }
+    .card{
+      width: 5rem;
+    }
+    button{
+      width: 90px;
+    }
+  }
+  @media (max-width: 344px){
+    .menu ul{
+      font-size: 11px;
+      padding: 5px;
+      margin-top: 16px;
+    }
+    .logo{
+      margin-top: 8px;
+    }
+  }
+  @media (max-width: 328px){
+    .logo{
+      font-size: 20px;
+      padding: 5px;
+      margin-top: 20px;
+    }
+    .menu ul{
+      font-size: 15px;
+      padding: 5px;
+    }
+    .menu li{
+      list-style: none;
+      margin: 8px;
+    }
+  }
+  @media (max-width: 328px){
+    button{
+      width: 70px;
+    }
+    .card{
+      padding: 4px;
+      margin: 6px;
+    }
+  }
+  @media (max-width: 324px){
+    .logo{
+      font-size: 20px;
+      padding: 5px;
+      margin-top: 20px;
+    }
+    .menu ul{
+      font-size: 15px;
+      padding: 5px;
+    }
+    .menu li{
+      list-style: none;
+      margin: 8px;
+    }
+  
+  }
+}
+
+
+
+
+
+
+
