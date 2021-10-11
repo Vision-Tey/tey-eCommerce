@@ -10,7 +10,7 @@ function Nav() {
                 <ul>
                     <li>Home</li>
                     <li>Contact</li>
-                    <li>About</li>
+                    <li>Cart</li>
                 </ul>
             </div>
         </div>

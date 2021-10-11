@@ -138,8 +138,49 @@ button:hover{
   margin: 1% 30% auto 30%;
   text-align: center;
 }
+/* product details styling */
+.Details{
+  display: flex;
+  background-color: cadetblue;
+  height: 70vh;
+  width: 100%;
+  padding-left: 100px;
+  /* justify-content: center; */
+  align-items: center;
+}
 
+.max-width{
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+}
+.content{
+  padding: 30px;
+}
+.content .image{
+  height: 10rem;
+  width: 10rem;
+}
+/* first page styling */
+.first{
+  background-color: #fff;
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+ 
+}
 
+.side{
+  width: 150px;
+border: 2px solid black;
+}
+/* side bar styling */
+.side li{
+  list-style: none;
+  margin: 10px;
+  padding-top: 20px;
+}
 
 
 
