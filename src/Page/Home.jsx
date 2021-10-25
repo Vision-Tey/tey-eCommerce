@@ -10,7 +10,7 @@ function Home() {
         <div className="first">
                 <div className="side">
                         <ul>
-                        <li>Electronics</li>
+                        <li href="">Electronics</li>
                         <li>Garmets</li>
                         <li>Grocery</li>
                         <li>Phones</li>
@@ -18,10 +18,10 @@ function Home() {
                         </ul>
                 </div>
                 <div className="body">
-                        <img src="front.jpeg" alt="" />
+                        <img className="image" src="https://previews.123rf.com/images/varijanta/varijanta1603/varijanta160300076/54344054-flat-line-design-website-banner-of-e-commerce-modern-vector-illustration-for-web-design-marketing-an.jpg" alt="" />
                 </div>
         </div>
-        <div className="heading"><h2>Electronics</h2></div>
+        <div className="heading"id="electronics" ><h2>Electronics</h2></div>
         <div className="home">
             {
     items.filter(stock => stock.category === "Electronics")

@@ -1,24 +1,33 @@
 import {BrowserRouter as Router, useHistory} from "react-router-dom";
-import React, { useState } from 'react'
+import React, { useContext, useState } from 'react'
+import { UserContext } from "../Components/UserContext";
 // import { useHistory } from 'react'
 
-function Login() {
+export function Login() {
     const history = useHistory(); 
     const handleHistory = ()=> {history.push("/home");
 }
-    const [data, setData] = useState({
+ const [data, setData] = useState({
         name:"",
         email:"",
         password:""
     })
+    const [user, setUser] = useContext(UserContext);
 function dothat(e){
+
     setData({...data, [e.target.name]:e.target.value});
+}
+const addUser = e => {
+    e.preventDefault();
+    setUser(()=>[{user:data.name}])
+    history.push("/home")
 }
 
 console.log(data.name, data.email,data.password);
     return (
-        <Router>
-        <div className="login">
+        // <Router>
+       
+             <form  className="login" >
             <h2>Tey eCommerce</h2>
             <label>Name</label>
             <input
@@ -45,9 +54,12 @@ console.log(data.name, data.email,data.password);
               onChange = {dothat}
               placeholder = "Enter password" />
               <br />
-              <button className = "btn" onClick = {handleHistory}>Login</button>
-        </div>
-        </Router>
+              
+              <button type="submit" className="btn"  onClick={addUser} 
+              >Login</button>
+              </form>
+        
+        // </Router>
     )
 }
 

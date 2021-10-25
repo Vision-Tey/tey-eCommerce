@@ -1,10 +1,15 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { UserContext } from './UserContext'
 
 function Nav() {
+    
+    const [user, setUser] = useContext(UserContext);
+    // console.log(user[0].user);
     return (
         <div className="nav">
             <div className="logo">
                 <span>TEY-eCommerce</span>
+                
             </div>
             <div className="menu">
                 <ul>
@@ -13,6 +18,7 @@ function Nav() {
                     <li>Cart</li>
                 </ul>
             </div>
+            <div>{user && user[0].user}</div>
         </div>
     )
 }
