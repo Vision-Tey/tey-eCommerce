@@ -3,7 +3,7 @@ import { UserContext } from './UserContext'
 
 function Nav() {
     
-    const [user, setUser] = useContext(UserContext);
+    const [user] = useContext(UserContext);
     // console.log(user[0].user);
     return (
         <div className="nav">

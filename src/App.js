@@ -8,7 +8,7 @@ import Nav from './Components/Nav'
 import Footer from './Components/Footer'
 import Admin from './Page/Admin';
 import Product_details from './Page/Product_details';
-import { UserContext } from './Components/UserContext';
+
 import { UserProvider } from './Components/UserContext';
 
 

@@ -15,7 +15,7 @@ function Admin() {
         .catch((err)=>console.log(err))
         .finally(()=>setloading(false))
         console.log(items);
-    },[])
+    },[items])
     return (
         <>
         <div className="first">

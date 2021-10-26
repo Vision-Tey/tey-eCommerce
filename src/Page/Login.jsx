@@ -1,18 +1,18 @@
-import {BrowserRouter as Router, useHistory} from "react-router-dom";
+import { useHistory} from "react-router-dom";
 import React, { useContext, useState } from 'react'
 import { UserContext } from "../Components/UserContext";
 // import { useHistory } from 'react'
 
 export function Login() {
     const history = useHistory(); 
-    const handleHistory = ()=> {history.push("/home");
-}
+//     const handleHistory = ()=> {history.push("/home");
+// }
  const [data, setData] = useState({
         name:"",
         email:"",
         password:""
     })
-    const [user, setUser] = useContext(UserContext);
+    const [ ,setUser] = useContext(UserContext);
 function dothat(e){
 
     setData({...data, [e.target.name]:e.target.value});
