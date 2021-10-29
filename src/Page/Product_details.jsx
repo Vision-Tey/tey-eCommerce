@@ -10,7 +10,7 @@ function Product_details() {
          <>
         
         {
-        items.filter((stock)=>  stock.id == id)
+        items.filter((stock)=>  stock.id === id)
         .map(stock => (
         <div className= "Details">
             <h2>{stock.product}</h2>

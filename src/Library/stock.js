@@ -26,7 +26,7 @@ import HighHeeled from '../images/Shoes/Shoe5.jpg'
 
 export const items = [
     {
-        "id": 1,
+        "id": "1",
         "category": "Electronics",
         "product": "Camera",
         "image": Camera,
@@ -34,7 +34,7 @@ export const items = [
         "price": 150000,
     },
     {
-        "id": 2,
+        "id": "2",
         "category": "Electronics",
         "product": "Ipods",
         "image": Ipods,
@@ -42,7 +42,7 @@ export const items = [
         "price": 50000,
     },
     {
-        "id": 3,
+        "id": "3",
         "category": "Electronics",
         "product": "Oven",
         "image": Oven,
@@ -50,7 +50,7 @@ export const items = [
         "price": 200000,
     },
     {
-        "id": 4,
+        "id": "4",
         "category": "Electronics",
         "product": "Woofer",
         "image": Woofer,
@@ -58,7 +58,7 @@ export const items = [
         "price": 250000,
     },
     {
-        "id": 5,
+        "id": "5",
         "category": "Garmets",
         "product": "Blaizer Coat",
         "image": Blaizer,
@@ -66,7 +66,7 @@ export const items = [
         "price": 100000,
     },
     {
-        "id": 6,
+        "id": "6",
         "category": "Garmets",
         "product": "Jean Jacket",
         "image": Jeanj,
@@ -74,7 +74,7 @@ export const items = [
         "price": 70000,
     },
     {
-        "id": 7,
+        "id": "7",
         "category": "Garmets",
         "product": "Polo T-shirt",
         "image": Polo,
@@ -82,7 +82,7 @@ export const items = [
         "price": 30000,
     },
     {
-        "id": 8,
+        "id": "8",
         "category": "Garmets",
         "product": "Shirt",
         "image": Shirt,
@@ -90,7 +90,7 @@ export const items = [
         "price": 35000,
     },
     {
-        "id": 9,
+        "id": "9",
         "category": "Garmets",
         "product": "Skirt",
         "image": Skirt,
@@ -98,7 +98,7 @@ export const items = [
         "price": 40000,
     },
     {
-        "id": 10,
+        "id": "10",
         "category": "Garmets",
         "product": "Sweat Pant",
         "image": Sweatpant,
@@ -106,7 +106,7 @@ export const items = [
         "price": 40000,
     },
     {
-        "id": 11,
+        "id": "11",
         "category": "Grocery",
         "product": "Bread",
         "image": Bread,
@@ -114,7 +114,7 @@ export const items = [
         "price": 5000,
     },
     {
-        "id": 12,
+        "id": "12",
         "category": "Grocery",
         "product": "Coca-cola",
         "image": Cocksoda,
@@ -122,7 +122,7 @@ export const items = [
         "price": 8000,
     },
     {
-        "id": 13,
+        "id": "13",
         "category": "Grocery",
         "product": "Packed Milk",
         "image": Milk,
@@ -130,7 +130,7 @@ export const items = [
         "price": 2000,
     },
     {
-        "id": 14,
+        "id": "14",
         "category": "Grocery",
         "product": "Sugar Kakiira",
         "image": Sugar,
@@ -138,23 +138,16 @@ export const items = [
         "price": 6000,
     },
     {
-        "id": 15,
+        "id": "15",
         "category": "Phones",
         "product": "Infinix Hot 10",
         "image": InfinixPhone,
         "desc": "64GB internal, 4GB RAM",
         "price": 450000,
     },
+   
     {
-        "id": 16,
-        "category": "Electronics",
-        "product": "Camera",
-        "image": Camera,
-        "desc": "Camera with holder, Canon",
-        "price": 150000,
-    },
-    {
-        "id": 17,
+        "id": "17",
         "category": "Phones",
         "product": "iPhone X",
         "image": iPhone,
@@ -162,7 +155,7 @@ export const items = [
         "price": 1200000,
     },
     {
-        "id": 18,
+        "id": "18",
         "category": "Phones",
         "product": "Itel P36",
         "image": ItelP36,
@@ -170,7 +163,7 @@ export const items = [
         "price": 300000,
     },
     {
-        "id": 19,
+        "id": "19",
         "category": "Phones",
         "product": "Techno Spark 7",
         "image": TechnoSmart,
@@ -178,7 +171,7 @@ export const items = [
         "price": 350000,
     },
     {
-        "id": 20,
+        "id": "20",
         "category": "Shoes",
         "product": "Dawg Shoes",
         "image": Dawgshoe,
@@ -186,7 +179,7 @@ export const items = [
         "price": 80000,
     },
     {
-        "id": 21,
+        "id": "21",
         "category": "Shoes",
         "product": "Puma shoe",
         "image": PumaShoe,
@@ -194,7 +187,7 @@ export const items = [
         "price": 50000,
     },
     {
-        "id": 22,
+        "id": "22",
         "category": "Shoes",
         "product": "Oxford shoe",
         "image": OxfordShoe,
@@ -202,7 +195,7 @@ export const items = [
         "price": 100000,
     },
     {
-        "id": 23,
+        "id": "23",
         "category": "Shoes",
         "product": "Easy lady shoe",
         "image": EasyShoe,
@@ -210,7 +203,7 @@ export const items = [
         "price": 15000,
     },
     {
-        "id": 24,
+        "id": "24",
         "category": "Shoes",
         "product": "High heeled shoe",
         "image": HighHeeled,
