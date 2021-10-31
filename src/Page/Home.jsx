@@ -25,7 +25,7 @@ function Home() {
         <div className="home">
             {
     items.filter(stock => stock.category === "Electronics")
-    .map(stock => (<Card img = {stock.image} price = {stock.price} key = {stock.id} id = {stock.id}/>        
+    .map(stock => (<Card img = {stock.image} price = {stock.price} stock={stock} key = {stock.id} id = {stock.id}/>        
        
     ))}
     </div>
@@ -33,7 +33,7 @@ function Home() {
     <div className="home">
             {
     items.filter(stock => stock.category === "Garmets")
-    .map(stock => (<Card img = {stock.image} price = {stock.price} key = {stock.id} id = {stock.id}/>        
+    .map(stock => (<Card img = {stock.image} price = {stock.price} stock={stock} key = {stock.id} id = {stock.id}/>        
        
     ))}
     </div>
@@ -41,7 +41,7 @@ function Home() {
     <div className="home">
             {
     items.filter(stock => stock.category === "Grocery")
-    .map(stock => (<Card img = {stock.image} price = {stock.price} key = {stock.id} id = {stock.id}/>        
+    .map(stock => (<Card img = {stock.image} price = {stock.price} stock={stock} key = {stock.id} id = {stock.id}/>        
        
     ))}
     </div>
@@ -49,7 +49,7 @@ function Home() {
     <div className="home">
             {
     items.filter(stock => stock.category === "Phones")
-    .map(stock => (<Card img = {stock.image} price = {stock.price} key = {stock.id} id = {stock.id}/>        
+    .map(stock => (<Card img = {stock.image} price = {stock.price} stock={stock} key = {stock.id} id = {stock.id}/>        
        
     ))}
     </div>
@@ -57,7 +57,7 @@ function Home() {
     <div className="home">
             {
     items.filter(stock => stock.category === "Shoes")
-    .map(stock => (<Card img = {stock.image} price = {stock.price} key = {stock.id} id = {stock.id}/>        
+    .map(stock => (<Card img = {stock.image} price = {stock.price} stock={stock} key = {stock.id} id = {stock.id}/>        
        
     ))}
     </div>

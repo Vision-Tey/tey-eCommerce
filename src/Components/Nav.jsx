@@ -1,10 +1,13 @@
 import React, { useContext } from 'react'
 import { UserContext } from './UserContext'
+import { Link } from 'react-router-dom';
+import { CartContext } from '../Cart';
 
 function Nav() {
     
     const [user] = useContext(UserContext);
-    // console.log(user[0].user);
+    const total = useContext(CartContext);
+    console.log(total);
     return (
         <div className="nav">
             <div className="logo">
@@ -15,7 +18,7 @@ function Nav() {
                 <ul>
                     <li>Home</li>
                     <li>Contact</li>
-                    <li>Cart</li>
+                    <Link to={`/cart`}><li>Cart ({total})</li></Link>
                 </ul>
             </div>
             <div>{user && user[0].user}</div>
