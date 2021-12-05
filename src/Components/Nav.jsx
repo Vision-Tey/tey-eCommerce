@@ -6,8 +6,9 @@ import { CartContext } from '../Cart';
 function Nav() {
     
     const [user] = useContext(UserContext);
-    const total = useContext(CartContext);
-    console.log(total);
+    const totalItems = useContext(CartContext);
+    console.log(user);
+    console.log(totalItems);
     return (
         <div className="nav">
             <div className="logo">
@@ -16,12 +17,12 @@ function Nav() {
             </div>
             <div className="menu">
                 <ul>
-                    <li>Home</li>
+                    <Link to={`/home`}><li>Home</li></Link>
                     <li>Contact</li>
-                    <Link to={`/cart`}><li>Cart ({total})</li></Link>
+                    <Link to={`/cart`}><li>Cart ({totalItems})</li></Link>
                 </ul>
             </div>
-            <div>{user && user[0].user}</div>
+            <div> Hi, {user && user[0].user} !</div>
         </div>
     )
 }

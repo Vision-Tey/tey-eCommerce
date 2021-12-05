@@ -8,6 +8,13 @@ function Product_details() {
     const {id} = useParams();
    console.log(typeof id);
    const { addItem } = useCart();
+
+//    const history = useHistory();
+// function handleHistory(){
+    
+//     history.push(`/cart}`);
+   
+// }
     return (
          <>
         
@@ -23,7 +30,7 @@ function Product_details() {
                 <div className="content right">
                     <div className="cat">{stock.category}</div>
                     <div className="price">{stock.price}</div>
-                    <button className="Cart" onClick={() => addItem(stock)}>Add to Cart</button>
+                    <button className="Cart" onClick={() => addItem(stock)} >Add to Cart</button>
                 </div>
             </div>
         </div>

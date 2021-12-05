@@ -1,5 +1,7 @@
-import React, { createContext } from 'react'
+import React, {  createContext } from 'react'
 import { useCart } from "react-use-cart";
+import { useHistory } from 'react-router';
+
 
 
 
@@ -16,14 +18,18 @@ const Cart = () => {
         removeItem,
         emptyCart,
     } = useCart();
+    const history = useHistory();
+    function handleHistory(){
+        history.push(`/home`);
+    }
     
     if (isEmpty) return <h1 className="text-center">Your cart is Empty</h1>
     return (
         <>
-        <CartContext.Provider value={totalUniqueItems}>
-      
+        <CartContext.Provider value={totalItems}>
+            
         </CartContext.Provider>
-        <section className="py-4 container">
+        <section className="cart-container">
             <div className="row justify-content-center">
                 <div className="col-12">
                     <h5>Cart ({totalUniqueItems}) totalItems:({totalItems})</h5>
@@ -66,6 +72,7 @@ const Cart = () => {
                     className="btn btn-danger m-2"
                     onClick={ ()=> emptyCart()}
                     >Clear Cart</button>
+                    <button onClick={handleHistory}>back</button>
                     <button className="btn btn-primary m-2">Buy now</button>
                 </div>
             </div>
