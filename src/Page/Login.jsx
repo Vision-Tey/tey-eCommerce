@@ -35,7 +35,8 @@ console.log(data.name, data.email,data.password);
              name = "name"
              value = {data.name} 
              onChange = {dothat}
-             placeholder = "Enter Name"/>
+             placeholder = "Enter Name" required/>
+             
              <br />
              
              <label>Email</label>

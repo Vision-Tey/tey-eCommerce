@@ -7,7 +7,7 @@ import { useHistory } from 'react-router';
 
 export const CartContext = createContext();
 
-const Cart = () => {
+const Cart = ({children}) => {
     const {
         isEmpty,
         totalUniqueItems,
@@ -27,7 +27,7 @@ const Cart = () => {
     return (
         <>
         <CartContext.Provider value={totalItems}>
-            
+            {children}
         </CartContext.Provider>
         <section className="cart-container">
             <div className="row justify-content-center">
